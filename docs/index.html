@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <title>Пушкино</title>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/tingle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800,900">
+  </head>
+  <body>
+    <div class="slideout-menu" id="menu">
+      <div class="row">
+        <ul class="menu">
+          <li><a href="/">Главная</a></li>
+          <li><a href="about-us.html">О нас</a></li>
+          <li><a href="price.html">Цены</a></li>
+          <li><a href="#">Фотогалерея</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+          <li><a href="#">Горячие предложения</a></li>
+          <li><a href="#">Хиты</a></li>
+          <li><a href="#">Новинки</a></li>
+          <li><a href="#">Поездки</a></li>
+          <li><a href="#">Направления</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="panel">
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-12">
+              <div class="header__logo"><img src="img/logo.png" alt=""></div>
+            </div>
+            <div class="col-md-11 col-sm-11 col-xs-12">
+              <div class="row middle-xs center-xs">
+                <div class="col-md-3 col-sm-1 col-xs-12"></div>
+                <div class="col-md-4 col-sm-5 col-xs-12"><a class="btn" href="#">Скачать ТЗ</a><a class="btn button-callback" href="#">Заказать звонок</a></div>
+                <div class="col-md-2 col-sm-3 col-xs-12 flex middle-xs center-xs"><i class="icon-email"></i><span class="header__email">geo@pushkino-trest.ru</span></div>
+                <div class="col-md-3 col-sm-3 col-xs-12 flex middle-xs end-xs"><i class="icon-call"></i><span class="header__phone">8 495 201 13 12</span></div>
+              </div>
+              <div class="row middle-xs">
+                <div class="col-md-8 col-sm-10 col-xs-12">
+                  <nav>
+                    <ul class="header__menu flex">
+                      <li><a href="/">Главная</a></li>
+                      <li><a href="about-us.html">О компании</a></li>
+                      <li><a href="articles.html">Статьи</a></li>
+                      <li><a href="cpo.html">CPO</a></li>
+                      <li><a href="#">Наши работы</a></li>
+                      <li><a href="photo.html">Фото</a></li>
+                      <li><a href="price.html">Цены</a></li>
+                      <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-md-4 col-sm-2 col-xs-12 end-xs">
+                  <form>
+                    <input type="text" placeholder="Поиск...">
+                    <button class="icon-search"></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="slider">
+        <div class="swiper-container slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex middle-xs" style="background-image: url('img/slide.png');">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12 col-xs-12">
+                    <div class="slider__block flex middle-xs">
+                      <div>
+                        <h2>Инженерные изыскания</h2>
+                        <p>высокое качество<br>по разумной цене!</p><span>Уважаемые дамы и господа, наша компания рада приветствовать всех, кто посетил странички нашего сайта!</span>
+                        <div><a href="#">Получить консультацию</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12 col-xs-12">
+                    <h1>Геодезия</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url('img/slide.png');"></div>
+            <div class="swiper-slide" style="background-image: url('img/slide.png');"></div>
+          </div>
+          <!-- Add Pagination-->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows-->
+          <div class="swiper-button-next"><i class="icon-right-arrow"></i></div>
+          <div class="swiper-button-prev"><i class="icon-left-arrow"></i></div>
+        </div>
+      </section>
+      <section class="home-block">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="home-block__image"><img src="img/geology.png" alt=""></div>
+              <div class="home-block__heading">
+                <h2>Геология</h2>
+                <p>от <span>1000</span> руб./п.м</p>
+              </div>
+              <div class="home-block__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla nisi, viverra eget erat et, dictum egestas diam. Nunc elementum fermentum lacus, a porttitor urna porttitor non. Sed egestas leo vitae convallis mollis. Nam et neque nunc. Praesent sit amet urna a neque lobortis convallis sed eu nunc. Fusce lobortis hendrerit vulputate. Ut volutpat vehicula massa at suscipit. Etiam vulputate, urna quis finibus malesuada, mi velit aliquet elit, a aliquet nisl risus et ligula. Nunc cursus leo ut nisi viverra eleifend in ut sem. Nunc et ornare quam. Sed convallis nulla felis, ac feugiat arcu sagittis quis.</p>
+              </div><a class="btn btn-primary" href="#">Получить консультацию</a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="home-block__image"><img src="img/geodezy.png" alt=""></div>
+              <div class="home-block__heading">
+                <h2>Геодезия</h2>
+                <p>от <span>12000</span> руб./п.м</p>
+              </div>
+              <div class="home-block__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla nisi, viverra eget erat et, dictum egestas diam. Nunc elementum fermentum lacus, a porttitor urna porttitor non. Sed egestas leo vitae convallis mollis. Nam et neque nunc. Praesent sit amet urna a neque lobortis convallis sed eu nunc. Fusce lobortis hendrerit vulputate. Ut volutpat vehicula massa at suscipit. Etiam vulputate, urna quis finibus malesuada, mi velit aliquet elit, a aliquet nisl risus et ligula. Nunc cursus leo ut nisi viverra eleifend in ut sem. Nunc et ornare quam. Sed convallis nulla felis, ac feugiat arcu sagittis quis.</p>
+              </div><a class="btn btn-primary" href="#">Получить консультацию</a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="home-block__image"><img src="img/ekology.png" alt=""></div>
+              <div class="home-block__heading">
+                <h2>Экология</h2>
+                <p>от <span>40000</span> руб./п.м</p>
+              </div>
+              <div class="home-block__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla nisi, viverra eget erat et, dictum egestas diam. Nunc elementum fermentum lacus, a porttitor urna porttitor non. Sed egestas leo vitae convallis mollis. Nam et neque nunc. Praesent sit amet urna a neque lobortis convallis sed eu nunc. Fusce lobortis hendrerit vulputate. Ut volutpat vehicula massa at suscipit. Etiam vulputate, urna quis finibus malesuada, mi velit aliquet elit, a aliquet nisl risus et ligula. Nunc cursus leo ut nisi viverra eleifend in ut sem. Nunc et ornare quam. Sed convallis nulla felis, ac feugiat arcu sagittis quis.</p>
+              </div><a class="btn btn-primary" href="#">Получить консультацию</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-xs-6 center-xs">
+              <div class="heading">
+                <h2>Перечень услуг<span> от Пушкино-трест</span></h2>
+                <hr>
+                <p>Quisque dignissim nibh augue, tristique laoreet mauris aliquam at. Nulla at ligula sed elit luctus euismod. Phasellus vitae magna id nisl iaculis viverra quis in odio.</p>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              <div class="tabs" id="tabs">
+                <ul class="tabs__list flex center-xs">
+                  <li><a href="#tabs-1">Геологиеские</a></li>
+                  <li><a href="#tabs-2">Экологические</a></li>
+                  <li><a href="#tabs-3">Геодезические</a></li>
+                  <li><a href="#tabs-4">Гидрометеорологические</a></li>
+                  <li><a href="#tabs-5">Обследование зданий</a></li>
+                </ul>
+                <div class="tab" id="tabs-1">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/people.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Более 3000  контактов за 10 лет работы</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/user.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Квалифицированные и опытные инженеры</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/like.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Сжатый срок-высокое качество</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/chat.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Лицензии и отзывы</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab" id="tabs-2">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/people.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Более 3000  контактов за 10 лет работы</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/user.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Квалифицированные и опытные инженеры</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/like.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Сжатый срок-высокое качество</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/chat.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Лицензии и отзывы</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab" id="tabs-3">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/people.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Более 3000  контактов за 10 лет работы</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/user.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Квалифицированные и опытные инженеры</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/like.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Сжатый срок-высокое качество</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/chat.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Лицензии и отзывы</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab" id="tabs-4">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/people.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Более 3000  контактов за 10 лет работы</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/user.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Квалифицированные и опытные инженеры</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/like.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Сжатый срок-высокое качество</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/chat.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Лицензии и отзывы</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab" id="tabs-5">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/people.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Более 3000  контактов за 10 лет работы</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/user.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Квалифицированные и опытные инженеры</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/like.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Сжатый срок-высокое качество</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="tab__block">
+                        <div class="tab__block__image"><img src="img/chat.png" alt=""></div>
+                        <div class="tab__block__content">
+                          <p>Лицензии и отзывы</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="step">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-xs-6">
+              <div class="heading">
+                <h2>Этапы<span> работы</span></h2>
+                <hr>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="step__block">
+                <div class="step__block__content step__block-1"><i class="icon-phone"></i><span>Оставьте заявку</span>
+                  <p>или позвоните нам: 8(861) 22-66-999</p>
+                </div>
+                <div class="step__block__content step__block-2"><i class="icon-calendar"></i><span>Получите консультацию</span>
+                  <p>и согласуйте дату приезда бригады геологов</p>
+                </div>
+                <div class="step__block__content step__block-3"><i class="icon-wishlist"></i><span>Прием бригады на участке</span>
+                  <p>и подписание договора</p>
+                </div>
+                <div class="step__block__content step__block-4"><i class="icon-people"></i><span>Отчет и консультация</span>
+                  <p>уже через <b>7 дней</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="doc">
+        <div class="container">
+          <div class="row center-xs middle-xs">
+            <div class="col-xs-12">
+              <div class="heading">
+                <h2>Документация<span> и CPO</span></h2>
+                <hr>
+                <p>Все необходимые Документы и допуски</p>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="tabs" id="tabs-doc">
+                <div class="row">
+                  <div class="col-md-4 col-sm-6 col-xs-12 last-md middle-xs flex">
+                    <ul class="tabs__list center-xs">
+                      <li><a class="btn" href="#tabs-doc-1"><i class="icon-download-file"></i> Техническое задание экология (40 kb)</a></li>
+                      <li><a class="btn" href="#tabs-doc-2"><i class="icon-download-file"></i> Техническое задание топосъемка (15 kb)</a></li>
+                      <li><a class="btn" href="#tabs-doc-3"><i class="icon-download-file"></i> Техническое задание на геологию (67 kb)</a></li>
+                      <li><a class="btn" href="#tabs-doc-4"><i class="icon-download-file"></i> СРО 14.08.2013 (4857 кb)</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-xs-12">
+                    <div class="gallery">
+                      <div class="tab" id="tabs-doc-1"><a href="img/doc.png"><img src="img/doc.png" alt=""></a></div>
+                      <div class="tab" id="tabs-doc-2"><a href="img/doc.png"><img src="img/doc.png" alt=""></a></div>
+                      <div class="tab" id="tabs-doc-3"><a href="img/doc.png"><img src="img/doc.png" alt=""></a></div>
+                      <div class="tab" id="tabs-doc-4"><a href="img/doc.png"><img src="img/doc.png" alt=""></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="photo-works">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-xs-6">
+              <div class="heading">
+                <h2>Фото<span> выполненных объектов</span></h2>
+                <hr>
+                <p>Компания Пушкино-Трест находится на рынке больше 7 лет,  занимаясь изысканиями как для крупных государственных организаций так и для частных лиц. Фото некоторых наших объектов.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row gallery">
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 center-xs">
+              <div class="photo-works__image"><a href="img/work.png"><img src="img/work.png" alt="">
+                  <div class="black-bg"></div></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Отзывы</h3>
+            </div>
+            <div class="col-xs-12">
+              <div class="swiper-container review-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="review__block">
+                      <h4 class="review__block__user">Серега Смирнов</h4>
+                      <div class="review__block__star"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><span>Быстро и качественно</span></div>
+                      <p><b>Достоинства:</b> Созвонились, обговорил, приехала бригада и провела изыскания. Через неделю отчет готов, супер!</p>
+                      <p><b>Недостатки:</b> Нету</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review__block">
+                      <h4 class="review__block__user">Кузнецов Андрей</h4>
+                      <div class="review__block__star"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star none"></i><span>Качество работ</span></div>
+                      <p><b>Достоинства:</b> Очень быстро все прошло. Заказал, через полчаса перезвонили и начали работать</p>
+                      <p><b>Недостатки:</b> Не сразу нашел офис</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="review__block">
+                      <h4 class="review__block__user">Кузнецов Андрей</h4>
+                      <div class="review__block__star"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star none"></i><span>Качество работ</span></div>
+                      <p><b>Достоинства:</b> Очень быстро все прошло. Заказал, через полчаса перезвонили и начали работать</p>
+                      <p><b>Недостатки:</b> Не сразу нашел офис</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="articles-home">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Последние новости</h3><span class="articles-home__heading">Статьи</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="articles-home__block">
+                <div class="articles-home__block__image"><img src="img/article-photo.png" alt=""></div>
+                <div class="articles-home__block__content">
+                  <h4>Собственный парк буровых установок</h4>
+                  <p>По окончанию всего комплекса работ по инженерно-геологическим исследованиям Вы получите Технический отчет об инженерно- геологических изысканиях на бумажном и электронном носителе. Технический отчет составляется в соответствии с требованиями действующих нормативных документов.</p>
+                </div><a class="btn" href="#">Читать статью</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="articles-home__block">
+                <div class="articles-home__block__image"><img src="img/article-photo.png" alt=""></div>
+                <div class="articles-home__block__content">
+                  <h4>Собственный парк буровых установок</h4>
+                  <p>По окончанию всего комплекса работ по инженерно-геологическим исследованиям Вы получите Технический отчет об инженерно- геологических изысканиях на бумажном и электронном носителе. Технический отчет составляется в соответствии с требованиями действующих нормативных документов.</p>
+                </div><a class="btn" href="#">Читать статью</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="articles-home__block">
+                <div class="articles-home__block__image"><img src="img/article-photo.png" alt=""></div>
+                <div class="articles-home__block__content">
+                  <h4>Собственный парк буровых установок</h4>
+                  <p>По окончанию всего комплекса работ по инженерно-геологическим исследованиям Вы получите Технический отчет об инженерно- геологических изысканиях на бумажном и электронном носителе. Технический отчет составляется в соответствии с требованиями действующих нормативных документов.</p>
+                </div><a class="btn" href="#">Читать статью</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="articles-home__block">
+                <div class="articles-home__block__image"><img src="img/article-photo.png" alt=""></div>
+                <div class="articles-home__block__content">
+                  <h4>Собственный парк буровых установок</h4>
+                  <p>По окончанию всего комплекса работ по инженерно-геологическим исследованиям Вы получите Технический отчет об инженерно- геологических изысканиях на бумажном и электронном носителе. Технический отчет составляется в соответствии с требованиями действующих нормативных документов.</p>
+                </div><a class="btn" href="#">Читать статью</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer__logo"><img src="img/logo-footer.png" alt="">
+                <p>© ООО "ПУШКИНО ТРЕСТ" 2015<br>С ВАМИ С 1995 ГОДА<br>ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row footer__form">
+                <div class="col-xs-12">
+                  <p>Получить шаблон технического задания на геодезические, геологические и экологические изыскания</p>
+                  <form class="middle-xs">
+                    <input type="text" placeholder="Ваш Email">
+                    <input class="btn" type="submit" value="Получить шаблон ТЗ">
+                  </form>
+                </div>
+              </div>
+              <div class="row footer__contact">
+                <div class="col-md-3">
+                  <h4>Контакты</h4>
+                  <div class="row">
+                    <div class="col-md-2"><i class="icon-phone"></i></div>
+                    <div class="col-md-10">
+                      <p>+56878879890Б<br>+56878879890</p>
+                    </div>
+                    <div class="col-md-2"><i class="icon-mail"></i></div>
+                    <div class="col-md-10">
+                      <p>geo-kompleks@mail.ru</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <h4>Разработка и дизайн</h4><a href="#"><img src="img/logo-weber.png" alt=""></a>
+                </div>
+                <div class="col-md-6 end-xs"><a class="map-site" href="">Карта сайта</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="callback" style="display: none;">
+      <h2>Заказать звонок</h2>
+      <div class="row center-xs">
+        <div class="col-xs-8 center-xs">
+          <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Связь с Вами: номер телефона, email, skype, icq">
+            <select>
+              <option>Тип выполняемых работ</option>
+              <option>Тип 1</option>
+              <option>Тип 1</option>
+            </select>
+            <textarea placeholder="Сообщение..."></textarea>
+            <input class="btn" type="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/slideout.min.js"></script>
+    <script src="js/tingle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

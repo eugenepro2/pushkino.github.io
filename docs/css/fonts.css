@@ -1,0 +1,84 @@
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal; 
+    src: url('../fonts/icomoon.eot?wez0o4');
+    src: url('../fonts/icomoon.eot?wez0o4#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?wez0o4') format('truetype'), url('../fonts/icomoon.woff?wez0o4') format('woff'), url('../fonts/icomoon.svg?wez0o4#icomoon') format('svg');
+
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    font-family: 'icomoon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before
+{
+    content: '\e90b';
+}
+
+.icon-search:before
+{
+    content: '\e90a';
+}
+
+.icon-download-file:before
+{
+    content: '\e909';
+}
+
+.icon-right-arrow:before
+{
+    content: '\e900';
+}
+
+.icon-left-arrow:before
+{
+    content: '\e901';
+}
+
+.icon-mail:before
+{
+    content: '\e902';
+}
+
+.icon-people:before
+{
+    content: '\e903';
+}
+
+.icon-wishlist:before
+{
+    content: '\e904';
+}
+
+.icon-calendar:before
+{
+    content: '\e905';
+}
+
+.icon-phone:before
+{
+    content: '\e906';
+}
+
+.icon-call:before
+{
+    content: '\e907';
+}
+
+.icon-email:before
+{
+    content: '\e908';
+}
